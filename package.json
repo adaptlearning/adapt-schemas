@@ -1,0 +1,33 @@
+{
+  "name": "adapt-schemas",
+  "version": "1.0.0",
+  "description": "A library for schema processing",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adaptlearning/adapt-schemas.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/adaptlearning/adapt-schemas/issues"
+  },
+  "homepage": "https://github.com/adaptlearning/adapt-schemas#readme",
+  "dependencies": {
+    "ajv": "^8.3.0",
+    "glob": "7.1.6",
+    "lodash": "^4.17.21",
+    "safe-regex": "2.1.1",
+    "xss": "^1.0.14"
+  },
+  "devDependencies": {
+    "eslint": "^7.31.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0"
+  }
+}
